@@ -157,3 +157,32 @@ body{
     background-color: #887a9c;
 
 }
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px 0;
+
+
+}
+
+.line .limit {
+    border: 1px solid #ddd;
+    height: 55px;
+
+}
+
+.line .line-circle {
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    color: #777;
+    font-weight: bold;
+    font-size: 14px;
+
+
+}
