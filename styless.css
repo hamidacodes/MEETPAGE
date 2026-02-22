@@ -186,3 +186,58 @@ body{
 
 
 }
+
+/* CONTENT-START */
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .content img{
+    width: 100%;
+    max-width: 200px;
+    height: 140px;
+    margin: 10px 5px;
+    border-radius: 13px;
+}
+
+.container .information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .information h4{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #599aac;
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+
+.container .information h2{
+
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: bold;
+
+}
+
+.container .information p{
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.9px;
+    margin: 20px 0;
+    font-weight: 500;
+    color: rgb(160, 154, 154);
+}
