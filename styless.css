@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 
@@ -7,6 +6,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+
+}
+body{
     font-family: "Poppins", sans-serif;
     background-color: #fafafa;
 
@@ -49,3 +52,108 @@
 
 
 /* HEADER-FINISH */
+/* <!-- ABOUT START/ --> */
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px 0px;
+    overflow: hidden;
+
+}
+
+.about .about-picture{
+    display: flex;
+    align-items: center;
+
+}
+
+.about .about-picture img{
+    width: 100%;
+    height: 100%;
+    max-width: 110px;
+    max-height: 110px;
+    border-radius: 50%;
+    padding: 5px;
+    transition: .3s;
+}
+.about .about-picture img:hover{
+    transform: translateY(-5px);
+    
+}
+
+.about-picture .col-1{
+    margin-left: -20px;
+}
+.about-picture .col-6{
+    margin-right: -40px;
+}
+
+.col-2, .col-5{
+    margin-bottom: 90px;
+}
+
+.about .about-info{
+    margin: 0 55px;
+
+}
+.about .about-info h1{
+
+    text-align: center;
+}
+.about .about-info h1{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.7px;
+}
+.about .about-info p{
+    font-size: 14px;
+    letter-spacing: 0.9px;
+    font-weight: 500;
+    color: rgb(160, 154, 154);
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+.about .about-info .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+
+.about .about-info a{
+    text-decoration: none;
+    padding: 13px 35px;
+    display: inline-block;
+    color: #ffff;
+    font-size: 12px;
+    border-radius: 35px;
+    font-weight: bold;
+
+
+}
+.about .about-info span{
+    background-color: #4f93a6;
+    color: #a0d1df;
+}
+
+
+
+.about .about-info .btn-1{
+    background-color: #4f93a6;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+}
+
+.about .about-info .btn-2{
+    background-color: #887a9c;
+
+}
