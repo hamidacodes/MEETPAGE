@@ -241,3 +241,139 @@ body{
     font-weight: 500;
     color: rgb(160, 154, 154);
 }
+
+/* CONTENT FINISH */
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+}
+
+.footer-picture{
+    width: 100%;
+    height: 300px;
+    background-image: url(img/3footer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+    background-color: #599AACB2;
+
+
+
+}
+
+.footer-info h4, p{
+    background-color: transparent;
+    color: #ffff;
+
+}
+.footer-info h4{
+    font-size: 24px;
+    margin: 10px 70px;
+    letter-spacing: 1.2px;
+}
+.footer-info p{
+    font-size: 14px;
+    text-align: center;
+    padding: 0 10px;
+
+}
+
+.footer-info a{
+    padding: 15px 35px;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    background-color: #887a9c;
+    margin-bottom: 15px;
+    margin-right: 70px;
+    margin-left: 70px;
+    text-align: center;
+    border-radius: 35px;
+    font-size: 12px;
+
+}
+
+.footer-info span{
+    background-color: #887a9c;
+    color: #a0d1df;
+    font-size: 12px;
+
+
+}
+
+/* RESPONSIVE START */
+
+
+@media screen and (max-width: 870px){
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about .about-info h1{
+        font-size: 35px;
+
+    
+    }
+    .about .about-info p{
+        font-size: 12px;
+
+    }
+    .about .about-info{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .picture-1{
+        margin-left: 30px;
+    }
+    .about .picture-2{
+        margin-top: 15px;
+
+    }
+    .about .about-info a{
+        margin: 5px 0;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px){
+    .container .information h2{
+        font-size: 25px;
+    }
+    .container .information p{
+        font-size: 12px;
+    }
+}
